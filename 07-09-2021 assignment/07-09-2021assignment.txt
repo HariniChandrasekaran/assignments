@@ -1,0 +1,20 @@
+Create Table:
+->create table bookapplication(bookid int,bookname varchar(20),bookauthor varchar(20),bookgenre varchar(20),bookcost int);
+Inserting Values:
+->insert into bookapplication values(20,'Little Women','Lousia May Alcott','Domestic fiction',80);
+->insert into bookapplication values(21,'Gullivers Travels','Jonathan Swift','Fantasy fiction',200);
+-> insert into bookapplication values(22,'Treasure Island','Louis Stevenson','Adventure fiction',90);
+->insert into bookapplication values(23,'Jane Eyre','Charlotte Bronte','Romance fiction',150);
+->insert into bookapplication values(24,'Heidi','Johana Spyri','Domestic fiction',50);
+Displaying table:
+->select*from bookapplication;
++--------+-------------------+-------------------+-------------------+----------+
+| bookid | bookname          | bookauthor        | bookgenre         | bookcost |
++--------+-------------------+-------------------+-------------------+----------+
+|     20 | Little Women      | Lousia May Alcott | Domestic fiction  |       80 |
+|     22 | Treasure Island   | Louis Stevenson   | Adventure fiction |       90 |
+|     23 | Jane Eyre         | Charlotte Bronte  | Romance fiction   |      150 |
+|     21 | Gullivers Travels | Jonathan Swift    | Fantasy fiction   |      200 |
+|     24 | Heidi             | Johana Spyri      | Domestic fiction  |       50 |
++--------+-------------------+-------------------+-------------------+----------+
+5 rows in set (0.12 sec)
